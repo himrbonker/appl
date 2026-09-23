@@ -394,7 +394,7 @@
 			// together). Fill it in with your backend's public URL (no trailing
 			// slash) when the frontend is hosted separately, e.g. on GitHub Pages,
 			// so it can reach the proxy engine and /wisp/ socket over there instead.
-			window.PROXY_BACKEND = "https://thee-blacks-breathing-suites.trycloudflare.com";
+			window.PROXY_BACKEND = "";
 		</script>
 		<script type="module" src="/js/app.js"></script>
 	</body>
