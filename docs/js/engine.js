@@ -46,7 +46,7 @@ const registerServiceWorker = async () => {
         }
     }
     const backend = backendOrigin();
-    const swUrl = backend ? `/sw.js?backend=${encodeURIComponent(backend)}` : "/sw.js";
+    const swUrl = backend ? `sw.js?backend=${encodeURIComponent(backend)}` : "sw.js";
     const registration = await navigator.serviceWorker.register(swUrl, {
         scope: "/",
         updateViaCache: "none"
